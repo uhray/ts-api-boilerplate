@@ -1,0 +1,43 @@
+{
+  "name": "ts-api-boilerplate",
+  "version": "1.0.0",
+  "description": "Uhray Boilerplate ===============",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "crud-mongoose": "^1.0.32",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.1",
+    "nconf": "^0.9.1",
+    "node-crud": "^2.1.4",
+    "postmark": "^1.4.1",
+    "require-dir": "^0.3.2",
+    "turnkey": "^2.0.15",
+    "typescript": "^2.6.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.9.1"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/tsc && node .build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhray/ts-api-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uhray/ts-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/uhray/ts-api-boilerplate#readme"
+}
